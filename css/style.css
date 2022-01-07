@@ -132,19 +132,17 @@ header .text-header .buttons .bt-dois {
   margin-right: 30px;
 }
 
-header img {
+header .img img {
   position: absolute;
-  background-size: cover;
+  background-size: contain;
   width: 350px;
   z-index: -1;
-  left: 200px;
-  top: 100px;
   -webkit-transform: scale(3);
           transform: scale(3);
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: left;
-     object-position: left;
+  -o-object-position: 10px;
+     object-position: 10px;
   top: 100px;
   height: 150px;
 }

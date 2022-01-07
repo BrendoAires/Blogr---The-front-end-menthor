@@ -124,18 +124,19 @@ header{
            
        }
     }
-    img{
+    .img{
+        img{
         position:absolute;
-        background-size: cover;
+        background-size: contain;
         width:350px;
         z-index: -1;
-        left:200px;
-        top:100px;
+        
         transform: scale(3);
         object-fit: cover;
-        object-position: left;
+        object-position: 10px;
         top:100px;
         height: 150px;
+        }
     }  
     
     .header{
@@ -150,7 +151,6 @@ header{
 
     
 }
-
 
 
 
