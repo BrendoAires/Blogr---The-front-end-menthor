@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root{
+    /*------COLORS------*/
+    /*primary*/
+    --clr-light-red: hsl(356, 100%, 66%);
+    --clr-very-light-red: hsl(355, 100%, 74%);
+    --clr-very-dark-blue: hsl(208, 49%, 24%);
+    /*neutral*/
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-graysh-blue:hsl(240, 2%, 79%);
+    --very-dark-blue:hsl(207, 13%, 34%);
+    --clr-very-dark-black:hsl(240, 10%, 16%);
+    /*gradient*/
+    --clr-gra1-light-red:hsl(13, 100%, 72%);
+    --clr-gra1-red:hsl(353, 100%, 62%);
+
+    --clr-gra2-dark-blue:hsl(237, 17%, 21%);
+    --clr-gra2-dark:hsl(237, 23%, 32%);
+
+    /*------Typography------*/
+    /*font*/
+    --fs: 16px;
+
+    --ff-overpass: 'Overpass', sans-serif;
+    --fw-ov-300:300;
+    --fw-ov-600:600;
+    
+    --ff-ubuntu: 'Ubuntu', sans-serif;
+    --fw-ubu-400:400;
+    --fw-ubu-500:500;
+    --fw-ubu-700:700;
+
+    --mobile-width:375px;
+    --desktop-width: 1440px;
+    
+}
+html{
+    overflow: hidden;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row{
+    display:flex;
+}
+
+    
+header{
+    height:65vh;
+    position: relative;
+
+    nav{
+        height: 100px;
+        border: 1px solid white;
+        justify-content: space-between;
+        align-items: center;
+        .nav-brand a{
+            font-family: var(--ff-ubuntu);
+            color: var(--clr-white);
+            font-size: 1.7rem;
+            font-weight: var(--fw-ubu-700);
+            padding: 20px;
+
+        } 
+        .menu{
+            display: none;
+        }
+            
+        
+
+
+    
+    
+}
+        
+    .text-header{
+       margin-top: 80px;
+       justify-content: center;
+       text-align: center;
+        
+
+       h2, h4{
+           color: var(--clr-white);
+           font-family: var(--ff-overpass);
+           padding: 0 70px 20px 70px;
+       }
+       h2{
+           font-size: 2.4rem;
+           font-weight: var(--fw-ov-600);
+           line-height: 40px;
+       }
+       h4{
+        font-size: 1.4rem;
+        font-weight: var(--fw-ov-300); 
+        line-height: 30px;
+       }
+       .buttons{
+           font-family: var(--ff-ubuntu);
+           font-weight: var(--fw-ubu-700);
+           justify-content: space-between;
+           padding: 0 30px 0 30px;
+           line-height: 40px;
+           
+                a{
+                    border-radius: 30px;
+                    height: 40px;
+                    width: 170px;
+                    margin-top:20px;
+                    
+                }
+                .bt-um{
+                    background: var(--clr-white);
+                    color:var(--clr-light-red);
+                    margin-left: 30px;
+                }
+                .bt-dois{
+                    color:var(--clr-white);
+                    outline: 2px solid var(--clr-white);
+                    margin-right: 30px;
+                    
+                }
+           
+       }
+    }
+    img{
+        position:absolute;
+        background-size: cover;
+        width:350px;
+        z-index: -1;
+        left:200px;
+        top:100px;
+        transform: scale(3);
+        object-fit: cover;
+        object-position: left;
+        top:100px;
+        height: 150px;
+    }  
+    
+    .header{
+        height:inherit;
+        position:absolute;
+        z-index:-2;
+        width: 100%;  
+        border-radius: 0 0 0 80px;
+        background: linear-gradient(185deg, var(--clr-gra1-light-red) 5%, var(--clr-gra1-red));
+    
+    }   
+
+    
+}
+
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
