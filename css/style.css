@@ -87,11 +87,11 @@ header .text-header {
 header .text-header h2, header .text-header h4 {
   color: var(--clr-white);
   font-family: var(--ff-overpass);
-  padding: 0 70px 20px 70px;
+  padding: 0 20px 20px 20px;
 }
 
 header .text-header h2 {
-  font-size: 2.4rem;
+  font-size: 2.3rem;
   font-weight: var(--fw-ov-600);
   line-height: 40px;
 }
