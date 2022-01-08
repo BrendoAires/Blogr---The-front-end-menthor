@@ -56,7 +56,6 @@ header {
 
 header nav {
   height: 100px;
-  border: 1px solid white;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
