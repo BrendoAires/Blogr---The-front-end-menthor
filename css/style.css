@@ -132,19 +132,11 @@ header .text-header .buttons .bt-dois {
   margin-right: 30px;
 }
 
-header .img img {
+header .img {
+  width: 375px;
+  height: 400px;
   position: absolute;
-  background-size: contain;
-  width: 350px;
   z-index: -1;
-  -webkit-transform: scale(3);
-          transform: scale(3);
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: 10px;
-     object-position: 10px;
-  top: 100px;
-  height: 150px;
 }
 
 header .header {
@@ -153,7 +145,7 @@ header .header {
   z-index: -2;
   width: 100%;
   border-radius: 0 0 0 80px;
-  background: linear-gradient(185deg, var(--clr-gra1-light-red) 5%, var(--clr-gra1-red));
+  background: linear-gradient(127deg, var(--clr-gra1-light-red) 5%, var(--clr-gra1-red));
 }
 
 .attribution {
