@@ -29,10 +29,6 @@
   --desktop-width: 1440px;
 }
 
-html {
-  overflow: hidden;
-}
-
 .flex-column {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -153,6 +149,16 @@ header .header {
   width: 100%;
   border-radius: 0 0 0 80px;
   background: linear-gradient(127deg, var(--clr-gra1-light-red) 5%, var(--clr-gra1-red));
+}
+
+main .titulo-principal {
+  font-size: 1.5rem;
+  color: var(--clr-very-dark-blue);
+  font-family: var(--ff-overpass);
+  font-weight: var(--fw-ov-600);
+  margin: 100px 0 100px 0;
+  padding: 0 30px;
+  text-align: center;
 }
 
 .attribution {

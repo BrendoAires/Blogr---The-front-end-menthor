@@ -36,7 +36,7 @@
     
 }
 html{
-    overflow: hidden;
+    
 }
 .flex-column{
     display: flex;
@@ -149,6 +149,18 @@ header{
     }   
 
     
+}
+
+main{
+    .titulo-principal{
+        font-size: 1.5rem;
+        color: var(--clr-very-dark-blue);
+        font-family: var(--ff-overpass);
+        font-weight: var(--fw-ov-600);
+        margin: 100px 0 100px 0;
+        padding: 0 30px;
+        text-align: center;
+    }
 }
 
 
