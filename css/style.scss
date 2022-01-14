@@ -61,8 +61,15 @@ header{
             font-size: 1.7rem;
             font-weight: var(--fw-ubu-700);
             padding: 20px;
+            
 
         } 
+        .icon-menu{
+            margin-left:150px;
+        }
+        .icon-menu svg .firstline, .secondline, .thirdline{
+            stroke: white;
+        }
         .menu{
             display: none;
         }
@@ -99,25 +106,25 @@ header{
            font-family: var(--ff-ubuntu);
            font-weight: var(--fw-ubu-700);
            justify-content: space-between;
-           padding: 0 30px 0 30px;
+           padding: 0 10px 0 10px;
            line-height: 40px;
            
                 a{
                     border-radius: 30px;
                     height: 40px;
-                    width: 170px;
+                    width: 150px;
                     margin-top:20px;
                     
                 }
                 .bt-um{
                     background: var(--clr-white);
                     color:var(--clr-light-red);
-                    margin-left: 30px;
+                    margin-left: 20px;
                 }
                 .bt-dois{
                     color:var(--clr-white);
                     outline: 2px solid var(--clr-white);
-                    margin-right: 30px;
+                    margin-right: 20px;
                     
                 }
            

@@ -72,6 +72,14 @@ header nav .nav-brand a {
   padding: 20px;
 }
 
+header nav .icon-menu {
+  margin-left: 150px;
+}
+
+header nav .icon-menu svg .firstline, header nav .secondline, header nav .thirdline {
+  stroke: white;
+}
+
 header nav .menu {
   display: none;
 }
@@ -108,27 +116,27 @@ header .text-header .buttons {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 30px 0 30px;
+  padding: 0 10px 0 10px;
   line-height: 40px;
 }
 
 header .text-header .buttons a {
   border-radius: 30px;
   height: 40px;
-  width: 170px;
+  width: 150px;
   margin-top: 20px;
 }
 
 header .text-header .buttons .bt-um {
   background: var(--clr-white);
   color: var(--clr-light-red);
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 header .text-header .buttons .bt-dois {
   color: var(--clr-white);
   outline: 2px solid var(--clr-white);
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 header .img {
