@@ -179,6 +179,33 @@ main .subtitulo {
   line-height: 30px;
 }
 
+main .img-mobi {
+  background: var(--clr-gra2-dark-blue);
+  border-radius: 0 80px 0 80px;
+  position: relative;
+  height: 70vh;
+  margin-top: 150px;
+}
+
+main .img-mobi .mobi, main .img-mobi .circle {
+  width: 375px;
+  height: 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+main .img-mobi .mobi {
+  background-image: url(/images/illustration-phones.svg);
+  top: -150px;
+  left: -6px;
+  z-index: 1;
+}
+
+main .img-mobi .circle {
+  background-image: url(/images/bg-pattern-circles.svg);
+  z-index: 0;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
