@@ -156,15 +156,27 @@ main .titulo-principal {
   color: var(--clr-very-dark-blue);
   font-family: var(--ff-overpass);
   font-weight: var(--fw-ov-600);
-  margin: 100px 0 100px 0;
-  padding: 0 30px;
+  margin: 50px 0 20px 0;
+  padding: 0 50px;
   text-align: center;
 }
 
 main .editor-illustration {
-  border: 1px solid red;
-  background-image: url("/images/illustration-editor-mobile.svg");
-  width: 375px;
+  background-image: url(/images/illustration-editor-mobile.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 340px;
+  margin: 50px 0 0 -15px;
+}
+
+main .subtitulo {
+  padding: 0 30px;
+  text-align: center;
+  font-family: var(--ff-overpass);
+  color: var(--clr-graysh-blue);
+  font-size: 1.1rem;
+  font-weight: var(--fw-ov-600);
+  line-height: 30px;
 }
 
 .attribution {
