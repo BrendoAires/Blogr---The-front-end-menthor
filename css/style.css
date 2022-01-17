@@ -161,6 +161,12 @@ main .titulo-principal {
   text-align: center;
 }
 
+main .editor-illustration {
+  border: 1px solid red;
+  background-image: url("/images/illustration-editor-mobile.svg");
+  width: 375px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

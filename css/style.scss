@@ -160,7 +160,15 @@ main{
         margin: 100px 0 100px 0;
         padding: 0 30px;
         text-align: center;
+       
     }
+
+    .editor-illustration{
+        border: 1px solid red;
+        background-image: url('/images/illustration-editor-mobile.svg');
+        width: 375px;
+    }
+    
 }
 
 
