@@ -139,7 +139,8 @@ header .img {
   width: 375px;
   height: 400px;
   position: absolute;
-  z-index: -1;
+  z-index: 10;
+  background-image: url("/images/bg-pattern-intro-mobile.svg");
 }
 
 header .header {
@@ -242,6 +243,10 @@ footer {
   text-align: center;
   height: 100vh;
   border-radius: 0 80px 0 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 100px;
 }
 
 footer h1 {
@@ -280,10 +285,46 @@ footer .attribution {
   text-align: center;
   color: var(--clr-white);
   padding-top: 70px;
-  background: var(--clr-very-dark-black);
 }
 
 footer .attribution a {
   color: var(--clr-gra1-red);
+}
+
+@media (min-width: 425px) {
+  header {
+    height: 500px;
+  }
+  header nav .icon-menu {
+    margin-left: 240px;
+  }
+  header .text-header .buttons {
+    padding: 0 10px 0 10px;
+    line-height: 40px;
+  }
+  header .text-header .buttons .bt-um {
+    margin-left: 25px;
+  }
+  header .text-header .buttons .bt-dois {
+    margin-right: 25px;
+  }
+  header .text-header .buttons a {
+    width: 160px;
+  }
+  header .img {
+    width: 425px;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+    background-image: url("/images/bg-pattern-intro-mobile-425px.svg");
+    background-repeat: no-repeat;
+  }
+  main .editor-illustration {
+    background-image: url("/images/illustration-editor-mobile-425px.svg");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 340px;
+    margin: 50px 0 0 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */

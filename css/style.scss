@@ -134,7 +134,8 @@ header{
         width: 375px;
         height: 400px;
         position: absolute;
-        z-index: -1;
+        z-index: 10;
+        background-image: url("/images/bg-pattern-intro-mobile.svg");
         
     } 
     
@@ -246,6 +247,8 @@ footer{
     text-align: center;
     height: 100vh;
     border-radius: 0 80px 0 0;
+    height: fit-content;
+    margin-top: 100px;
 
     h1{
         font-size: 2.3rem;
@@ -281,6 +284,81 @@ footer{
     
 
 
-    .attribution { font-size: 11px; text-align: center; color: var(--clr-white);padding-top: 70px;background: var(--clr-very-dark-black);}
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        color: var(--clr-white);
+        padding-top: 70px;
+        
+    }
     .attribution a { color: var(--clr-gra1-red); }
+}
+
+@media(min-width: 425px){
+    header{
+        height:500px;
+    
+        nav{
+            
+            
+            .icon-menu{
+                margin-left:240px;
+            }
+            
+        
+    }
+            
+        .text-header{
+           
+    
+           
+           
+           
+           .buttons{
+               
+               padding: 0 10px 0 10px;
+               line-height: 40px;
+               
+                    
+                    .bt-um{
+                        
+                        margin-left: 25px;
+                    }
+                    .bt-dois{
+                        margin-right: 25px;
+                        
+                    }
+                    a{
+                        width: 160px;
+                    }
+               
+           }
+        }
+        .img{
+            width: 425px;
+            height: 400px;
+            position: absolute;
+            z-index: -1;
+            background-image: url("/images/bg-pattern-intro-mobile-425px.svg");
+            background-repeat: no-repeat;
+        } 
+        
+         
+    
+        
+    }
+
+    main{
+         
+        
+    
+        .editor-illustration{
+            background-image: url("/images/illustration-editor-mobile-425px.svg");
+            width: 100%;
+            background-repeat: no-repeat;
+            
+            height: 340px;
+            margin: 50px 0 0 0;
+        }
+    }
 }
