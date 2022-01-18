@@ -316,15 +316,46 @@ footer .attribution a {
     height: 400px;
     position: absolute;
     z-index: -1;
-    background-image: url("/images/bg-pattern-intro-mobile-425px.svg");
+    background-image: url("/images/img-425px/bg-pattern-intro-mobile-425px.svg");
     background-repeat: no-repeat;
   }
   main .editor-illustration {
-    background-image: url("/images/illustration-editor-mobile-425px.svg");
-    width: 100%;
-    background-repeat: no-repeat;
-    height: 340px;
+    background-image: url("/images/img-425px/illustration-editor-mobile-425px.svg");
     margin: 50px 0 0 0;
+  }
+  main .subtitulo {
+    padding-bottom: 50px;
+  }
+  main .img-mobi {
+    background: var(--clr-gra2-dark-blue);
+    border-radius: 0 80px 0 80px;
+    position: relative;
+    height: 90vh;
+    margin-top: 150px;
+  }
+  main .img-mobi .mobi, main .img-mobi .circle {
+    width: 375px;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+  main .img-mobi .mobi {
+    background-image: url("/images/img-425px/illustration-phones-425px.svg");
+    left: 20px;
+  }
+  main .img-mobi .circle {
+    background-image: url("/images/img-425px/bg-pattern-circles-425px.svg");
+  }
+  main .img-mobi h1 {
+    font-size: 2rem;
+    padding-top: 200px 20px;
+  }
+  main .img-mobi p {
+    margin: 30px 0 50px;
+  }
+  main .illustration-laptop {
+    background-image: url("/images/img-425px/illustration-laptop-mobile-425px.svg");
+    margin-left: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
