@@ -331,7 +331,8 @@ footer{
         }
         .img{
             width: 425px;
-            height: 400px;
+            border: 1px solid black;
+            height: inherit;
             position: absolute;
             z-index: -1;
             background-image: url("/images/img-425px/bg-pattern-intro-mobile-425px.svg");
