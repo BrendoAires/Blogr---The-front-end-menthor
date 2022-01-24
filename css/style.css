@@ -321,7 +321,7 @@ footer .attribution a {
   }
   main .editor-illustration {
     background-image: url("/images/img-425px/illustration-editor-mobile-425px.svg");
-    margin: 50px 0 0 0;
+    margin: 0 auto;
   }
   main .subtitulo {
     padding-bottom: 50px;
