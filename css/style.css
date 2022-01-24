@@ -337,7 +337,7 @@ footer .attribution a {
     margin: 150px 0 50px 0;
   }
   main .img-mobi .mobi, main .img-mobi .circle {
-    width: 375px;
+    width: 100%;
     height: 300px;
     background-repeat: no-repeat;
     position: absolute;
