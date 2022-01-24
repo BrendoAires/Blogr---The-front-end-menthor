@@ -319,6 +319,9 @@ footer .attribution a {
     background-image: url("/images/img-425px/bg-pattern-intro-mobile-425px.svg");
     background-repeat: no-repeat;
   }
+  main {
+    background: black;
+  }
   main .editor-illustration {
     background-image: url("/images/img-425px/illustration-editor-mobile-425px.svg");
     margin: 50px 0 0 0;
