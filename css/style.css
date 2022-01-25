@@ -341,7 +341,7 @@ footer .attribution a {
     height: 300px;
     background-repeat: no-repeat;
     position: absolute;
-    border: 1px solid red;
+    border: 1px solid yellow;
   }
   main .img-mobi .mobi {
     background-image: url("/images/img-425px/illustration-phones-425px.svg");
