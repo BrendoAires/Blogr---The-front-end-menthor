@@ -40,7 +40,6 @@ html{
 }
 .flex-column{
     display: flex;
-    flex-direction: column;
 }
 .flex-row{
     display:flex;
@@ -85,6 +84,7 @@ header{
        margin-top: 80px;
        justify-content: center;
        text-align: center;
+       flex-direction: column;
         
 
        h2, h4{
@@ -108,6 +108,7 @@ header{
            justify-content: space-between;
            padding: 0 10px 0 10px;
            line-height: 40px;
+           flex-direction: row;
            
                 a{
                     border-radius: 30px;
@@ -249,6 +250,7 @@ footer{
     border-radius: 0 80px 0 0;
     height: fit-content;
     margin-top: 100px;
+    flex-direction: column;
 
     h1{
         font-size: 2.3rem;
@@ -284,15 +286,17 @@ footer{
     
 
 
-    .attribution { 
-        font-size: 11px; 
-        text-align: center; 
-        color: var(--clr-white);
-        padding-top: 70px;
-        
-    }
-    .attribution a { color: var(--clr-gra1-red); }
+    
 }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: var(--clr-white);
+    padding-top: 70px;
+    background: var(--clr-very-dark-black);
+    
+}
+.attribution a { color: var(--clr-gra1-red); }
 
 @media(min-width: 425px){
     header{
@@ -431,4 +435,28 @@ footer{
         }
     }
     
+}
+
+@media (min-width:1024px){
+    body{
+        main{
+            .editor-illustration{
+                width:470px;
+            }
+            .img-mobi{
+                .mobi, .circle{
+                    
+                    left:250px;
+                    width:460px;
+                }
+            }
+        }
+
+        footer{
+            flex-direction: row;
+            justify-content: space-around;
+            text-align: left;
+            padding-bottom:50px; 
+        }
+    }
 }
