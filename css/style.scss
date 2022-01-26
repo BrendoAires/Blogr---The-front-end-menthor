@@ -133,9 +133,9 @@ header{
     }
     .img{
         width: 375px;
-        height: 400px;
+        height:100%;
         position: absolute;
-        z-index: 10;
+        z-index: -1;
         background-image: url("/images/bg-pattern-intro-mobile.svg");
         
     } 
