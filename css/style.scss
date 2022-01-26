@@ -132,12 +132,12 @@ header{
        }
     }
     .img{
-        width: 375px;
-        height:100%;
+        width: 100%;
+        height:65vh;
         position: absolute;
         z-index: -1;
         background-image: url("/images/bg-pattern-intro-mobile.svg");
-        
+        background-repeat: no-repeat;
     } 
     
     .header{
@@ -300,7 +300,6 @@ footer{
 
 @media(min-width: 425px){
     header{
-        height:500px;
     
         nav{
             
@@ -334,12 +333,8 @@ footer{
            }
         }
         .img{
-            width: 100%;
-            height: inherit;
-            position: absolute;
-            z-index: -1;
-            background-image: url("/images/img-425px/bg-pattern-intro-mobile-425px.svg");
-            background-repeat: no-repeat;
+           width: 100%;
+           
         } 
         
          
@@ -439,6 +434,14 @@ footer{
 
 @media (min-width:1024px){
     body{
+        header{
+            
+                .img{
+                    width: 100%;
+
+                }
+            
+        }
         main{
             .editor-illustration{
                 width:470px;
@@ -457,6 +460,54 @@ footer{
             justify-content: space-around;
             text-align: left;
             padding-bottom:50px; 
+        }
+    }
+}
+
+
+@media (min-width:1440px){
+    body{
+        header{
+            
+                .img{
+                    width: 940px;
+                    margin-left: 500px;
+
+                }
+            
+        }
+        main{
+            .editor-illustration{
+                width:470px;
+            }
+            .img-mobi{
+                .mobi, .circle{
+                    
+                    left:250px;
+                    width:460px;
+                }
+            }
+        }
+
+        footer{
+            flex-direction: row;
+            justify-content: space-around;
+            text-align: left;
+            padding-bottom:50px; 
+        }
+    }
+}
+
+@media (min-width:2560px){
+    body{
+        header{
+            
+                .img{
+                    width: 940px;
+                    margin-left: 940px;
+
+                }
+            
         }
     }
 }

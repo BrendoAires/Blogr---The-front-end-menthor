@@ -140,11 +140,12 @@ header .text-header .buttons .bt-dois {
 }
 
 header .img {
-  width: 375px;
-  height: 100%;
+  width: 100%;
+  height: 65vh;
   position: absolute;
   z-index: -1;
   background-image: url("/images/bg-pattern-intro-mobile.svg");
+  background-repeat: no-repeat;
 }
 
 header .header {
@@ -301,9 +302,6 @@ footer .lista .item a {
 }
 
 @media (min-width: 425px) {
-  header {
-    height: 500px;
-  }
   header nav .icon-menu {
     margin-left: 240px;
   }
@@ -322,11 +320,6 @@ footer .lista .item a {
   }
   header .img {
     width: 100%;
-    height: inherit;
-    position: absolute;
-    z-index: -1;
-    background-image: url("/images/img-425px/bg-pattern-intro-mobile-425px.svg");
-    background-repeat: no-repeat;
   }
   main .editor-illustration {
     background-image: url("/images/img-425px/illustration-editor-mobile-425px.svg");
@@ -393,6 +386,9 @@ footer .lista .item a {
 }
 
 @media (min-width: 1024px) {
+  body header .img {
+    width: 100%;
+  }
   body main .editor-illustration {
     width: 470px;
   }
@@ -409,6 +405,37 @@ footer .lista .item a {
         justify-content: space-around;
     text-align: left;
     padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body header .img {
+    width: 940px;
+    margin-left: 500px;
+  }
+  body main .editor-illustration {
+    width: 470px;
+  }
+  body main .img-mobi .mobi, body main .img-mobi .circle {
+    left: 250px;
+    width: 460px;
+  }
+  body footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: left;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 2560px) {
+  body header .img {
+    width: 940px;
+    margin-left: 940px;
   }
 }
 /*# sourceMappingURL=style.css.map */
